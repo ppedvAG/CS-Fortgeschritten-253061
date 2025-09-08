@@ -18,10 +18,10 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M003 | Delegates und Events
 
-- [ ] Delegate
-- [ ] Action, Predicate, Func
-- [ ] Events
-- [ ] Komponente mit Events
+- [x] Delegate
+- [x] Action, Predicate, Func
+- [x] Events
+- [x] Komponente mit Events
 
 
 ## M004 | Generics
