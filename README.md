@@ -26,9 +26,9 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M004 | Generics
 
-- [ ] Generics Intro
-- [ ] Anwendung von Generics
-- [ ] Constraints
+- [x] Generics Intro
+- [x] Anwendung von Generics
+- [x] Constraints
 
 ## M005 | Serialisierung
 
@@ -64,11 +64,11 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M009 | Linq & Erweiterungsmethoden
 
-- [ ] Intro Linq
-- [ ] Einfaches Linq
-- [ ] Weitere Linq Funktionen
-- [ ] Komplexes Linq
-- [ ] Erweiterungsmethoden
+- [x] Intro Linq
+- [x] Einfaches Linq
+- [x] Weitere Linq Funktionen
+- [x] Komplexes Linq
+- [x] Erweiterungsmethoden
 
 ## M010 | Reflection
 
