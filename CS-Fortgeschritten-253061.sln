@@ -28,6 +28,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M004_Generics", "M004_Gener
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspSample", "IspSample\IspSample.csproj", "{4184B42D-D52B-409D-88C8-9DA7A4DDC588}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4SolarSystem", "Lab4SolarSystem\Lab4SolarSystem.csproj", "{24737DB9-DD8D-4EC0-9CB0-BB211837747B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -62,6 +64,10 @@ Global
 		{4184B42D-D52B-409D-88C8-9DA7A4DDC588}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4184B42D-D52B-409D-88C8-9DA7A4DDC588}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4184B42D-D52B-409D-88C8-9DA7A4DDC588}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -74,6 +80,7 @@ Global
 		{65BC25B9-08A0-4D52-8B96-731083C00F6F} = {DA20DEBA-043D-44D8-9EFF-EE8D4A628B54}
 		{1792015F-9018-4094-94BF-C52D5671B27B} = {DA20DEBA-043D-44D8-9EFF-EE8D4A628B54}
 		{4184B42D-D52B-409D-88C8-9DA7A4DDC588} = {1000A990-63DE-44E0-B129-11130760FD1E}
+		{24737DB9-DD8D-4EC0-9CB0-BB211837747B} = {1000A990-63DE-44E0-B129-11130760FD1E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A505E4C-59C0-4616-ABA9-B8F58864626F}
