@@ -34,6 +34,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_Serialisierung", "M005
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{76424F66-558B-4F3E-81F9-7122BDCA3B1A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab5SolarSystem", "Lab5SolarSystem\Lab5SolarSystem.csproj", "{91B290FF-346E-446E-B511-133526929308}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -76,6 +78,10 @@ Global
 		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91B290FF-346E-446E-B511-133526929308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91B290FF-346E-446E-B511-133526929308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91B290FF-346E-446E-B511-133526929308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91B290FF-346E-446E-B511-133526929308}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +96,7 @@ Global
 		{4184B42D-D52B-409D-88C8-9DA7A4DDC588} = {1000A990-63DE-44E0-B129-11130760FD1E}
 		{24737DB9-DD8D-4EC0-9CB0-BB211837747B} = {1000A990-63DE-44E0-B129-11130760FD1E}
 		{76424F66-558B-4F3E-81F9-7122BDCA3B1A} = {AA08310C-AD5B-424D-B051-5EE9F7BE0AFA}
+		{91B290FF-346E-446E-B511-133526929308} = {AA08310C-AD5B-424D-B051-5EE9F7BE0AFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A505E4C-59C0-4616-ABA9-B8F58864626F}
