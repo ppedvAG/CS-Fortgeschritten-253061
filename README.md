@@ -32,10 +32,10 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M005 | Serialisierung
 
-- [ ] Intro Serialisierung
-- [ ] Arbeiten mit Json
-- [ ] Unterschiede Newtonsoft.Json und System.Text.Json
-- [ ] Arbeiten mit XML, CSV, Binary
+- [x] Intro Serialisierung
+- [x] Arbeiten mit Json
+- [x] Unterschiede Newtonsoft.Json und System.Text.Json
+- [x] Arbeiten mit XML, CSV
 
 ## M006 | Multithreading
 

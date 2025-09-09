@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36121.58 d17.14
+VisualStudioVersion = 17.14.36121.58
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloDelegates", "HelloDelegates\HelloDelegates.csproj", "{5B06315B-927D-4836-8393-7AC3E6658030}"
 EndProject
@@ -29,6 +29,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IspSample", "IspSample\IspSample.csproj", "{4184B42D-D52B-409D-88C8-9DA7A4DDC588}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab4SolarSystem", "Lab4SolarSystem\Lab4SolarSystem.csproj", "{24737DB9-DD8D-4EC0-9CB0-BB211837747B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M005_Serialisierung", "M005_Serialisierung", "{AA08310C-AD5B-424D-B051-5EE9F7BE0AFA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Serialization", "Serialization\Serialization.csproj", "{76424F66-558B-4F3E-81F9-7122BDCA3B1A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -68,6 +72,10 @@ Global
 		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24737DB9-DD8D-4EC0-9CB0-BB211837747B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76424F66-558B-4F3E-81F9-7122BDCA3B1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -81,6 +89,7 @@ Global
 		{1792015F-9018-4094-94BF-C52D5671B27B} = {DA20DEBA-043D-44D8-9EFF-EE8D4A628B54}
 		{4184B42D-D52B-409D-88C8-9DA7A4DDC588} = {1000A990-63DE-44E0-B129-11130760FD1E}
 		{24737DB9-DD8D-4EC0-9CB0-BB211837747B} = {1000A990-63DE-44E0-B129-11130760FD1E}
+		{76424F66-558B-4F3E-81F9-7122BDCA3B1A} = {AA08310C-AD5B-424D-B051-5EE9F7BE0AFA}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {9A505E4C-59C0-4616-ABA9-B8F58864626F}
