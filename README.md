@@ -39,28 +39,28 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 
 ## M006 | Multithreading
 
-- [ ] Intro Threading
-- [ ] Thread starten/stoppen
-- [ ] Thread mit Parameter
-- [ ] Threadpool
-- [ ] Lock
-- [ ] Mutex, Interlocked, ConcurrentCollection
+- [x] Intro Threading
+- [x] Thread starten/stoppen
+- [x] Thread mit Parameter
+- [x] Threadpool
+- [x] Lock
+- [x] Mutex, Interlocked, ConcurrentCollection
 
 ## M007 | TPL
 
-- [ ] Intro Tasks
-- [ ] Task starten/stoppen
-- [ ] Task mit Parameter und/oder Return
-- [ ] Exceptions in Tasks
-- [ ] Tasks fortsetzen
-- [ ] Auf mehrere Tasks warten
-- [ ] Tasks verketten
+- [x] Intro Tasks
+- [x] Task starten/stoppen
+- [x] Task mit Parameter und/oder Return
+- [x] Exceptions in Tasks
+- [x] Tasks fortsetzen
+- [x] Auf mehrere Tasks warten
+- [x] Tasks verketten
 
 ## M008 | TPL Async/Await
 
-- [ ] Intro Async/Await Pattern
-- [ ] Async/Await vs Tasks
-- [ ] Async/Await in Verbindung mit WPF
+- [x] Intro Async/Await Pattern
+- [x] Async/Await vs Tasks
+- [x] Async/Await in Verbindung mit WPF
 
 ## M009 | Linq & Erweiterungsmethoden
 
