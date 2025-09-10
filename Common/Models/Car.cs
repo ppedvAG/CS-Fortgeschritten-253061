@@ -6,6 +6,8 @@ namespace Common.Models;
 
 public class Car
 {
+    private readonly string _passcode = "secret";
+
     [XmlIgnore]
     [JsonIgnore]
     public long Id { get; set; }
@@ -24,6 +26,8 @@ public class Car
 
     [JsonConverter(typeof(JsonStringEnumConverter))]
     public KnownColor Color { get; set; }
+
+    private string Passcode { get; set; }
 
     public override string ToString()
     {
