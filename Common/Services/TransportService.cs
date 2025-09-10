@@ -10,16 +10,17 @@ namespace Common.Services
     public class TransportService : ITransportService
     {
         private readonly IVehicleService _vehicleService;
+        private readonly AppSettings _settings;
         private static int CurrentOrderId = 0;
+
+        // Bad Practice
+        // 1. Keine Abstraktion der Dependency (Interface)
+        // 2. Abhängigkeit innerhalb der Klasse erzeugt
+        private VehicleService _badDependency = new VehicleService();
 
         private List<Car> CarPool => _vehicleService.GetAll();
 
         public List<Car> Payload { get; set; }
-
-        public TransportService()
-        {
-            
-        }
 
         /// <summary>
         /// Constructor der IoC (Inversion of Control) veranschaulicht
@@ -28,9 +29,10 @@ namespace Common.Services
         /// konkreten Implementierungen, sondern nur Abstraktionen die von aussen gestezt werden.
         /// </summary>
         /// <param name="vehicleService">Als abstrahierte Dependency</param>
-        public TransportService(IVehicleService vehicleService)
+        public TransportService(IVehicleService vehicleService, AppSettings settings)
         {
             _vehicleService = vehicleService;
+            _settings = settings;
         }
 
         public void Load(string brandName)
@@ -47,6 +49,10 @@ namespace Common.Services
 
         public void ShowInfo()
         {
+            Console.WriteLine($"{GetHashCode().ToString().Substring(0, 6)} TransportService");
+            _vehicleService.ShowInfo();
+            Console.WriteLine(_settings.ConnectionString);
+
             if (Payload is null)
             {
                 Console.WriteLine("Nichts geladen");

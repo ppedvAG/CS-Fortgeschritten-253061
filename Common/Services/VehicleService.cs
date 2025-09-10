@@ -28,6 +28,7 @@ namespace Common.Services
 
         public void ShowInfo()
         {
+            Console.WriteLine($"{GetHashCode().ToString().Substring(0, 6)} VehicleService\n");
             Console.WriteLine($"Anzahl Elemente: {Data.Count}\tStatus: {_state}");
         }
     }
