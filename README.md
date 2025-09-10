@@ -82,7 +82,7 @@ Kurs Repository zu Kurs C# Fortgeschrittene Programmierung der ppedv AG. Trainer
 ## M011 | Sonstige Themen
 
 - [ ] MSTest und Moq benutzen
-- [ ] Operatoren überladen, Indexer
+- [x] Operatoren überladen, Indexer
 - [ ] Enumerator implementieren
-- [ ] Dependency Injection
-- [ ] Design Patterns
+- [x] Dependency Injection
+- [x] Design Patterns
