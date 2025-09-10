@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TPL-Multitasking.Desktop", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab8JsonSplit.Desktop", "Lab8JsonSplit.Desktop\Lab8JsonSplit.Desktop.csproj", "{6174F973-0B09-435A-B602-59756D1E9387}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "M100_Extra", "M100_Extra", "{2499F969-B602-4EA2-B1E9-D112C16DFC92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
